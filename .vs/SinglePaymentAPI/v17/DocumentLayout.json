@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\models\\transferentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:models\\transferentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\models\\walletentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:models\\walletentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TransferEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\TransferEntity.cs",
+              "RelativeDocumentMoniker": "Models\\TransferEntity.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\TransferEntity.cs",
+              "RelativeToolTip": "Models\\TransferEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T10:24:50.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WalletEntity.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\WalletEntity.cs",
               "RelativeDocumentMoniker": "Models\\WalletEntity.cs",
               "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\WalletEntity.cs",
               "RelativeToolTip": "Models\\WalletEntity.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T02:15:27.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserType.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\Enum\\UserType.cs",
               "RelativeDocumentMoniker": "Models\\Enum\\UserType.cs",
