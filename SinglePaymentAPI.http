@@ -1,0 +1,6 @@
+@SinglePaymentAPI_HostAddress = http://localhost:5011
+
+GET {{SinglePaymentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
