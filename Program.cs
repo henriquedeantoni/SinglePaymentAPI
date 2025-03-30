@@ -18,8 +18,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var serverVersion = new MySqlServerVersion(new Version(8, 0, 41));
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(builder.Configuration.GetConnectionString("defaultConnection"), serverVersion));
+
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySQL(builder.Configuration.GetConnectionString("defaultConnection")));
 
 builder.Services.AddScoped<IWalletRepository, WalletRepository>();
 builder.Services.AddScoped<ITransferRepository, TransferRepository>();

@@ -13,6 +13,7 @@ namespace SinglePaymentAPI.Models
         public decimal Balance { get; set; }
         public UserType UserType { get; set; }
 
+        private WalletEntity() { }
         public WalletEntity(int id, string name, string sSNorEIN, string email, string password, decimal balance, UserType userType)
         {
             Id = id;
