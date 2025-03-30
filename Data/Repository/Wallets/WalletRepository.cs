@@ -21,10 +21,10 @@ public class WalletRepository : IWalletRepository
         _context.Update(wallet);
     }
 
-    public async Task<WalletEntity?> GetBySsnEin(string ssnEin, string email)
+    public async Task<WalletEntity?> GetBySsnEin(string ssnOrEin, string email)
     {
         return await _context.Wallets.FirstOrDefaultAsync(wallet => 
-                            wallet.SSNorEIN.Equals(ssnEin) || wallet.Email.Equals(email));
+                            wallet.SSNorEIN.Equals(ssnOrEin) || wallet.Email.Equals(email));
     }
 
     public async Task<WalletEntity?> GetById(int id)

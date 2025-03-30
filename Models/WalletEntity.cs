@@ -4,6 +4,7 @@ namespace SinglePaymentAPI.Models
 {
     public class WalletEntity
     {
+
         public int Id { get; set; }
 
         public string Name { get; set; }
@@ -14,9 +15,8 @@ namespace SinglePaymentAPI.Models
         public UserType UserType { get; set; }
 
         private WalletEntity() { }
-        public WalletEntity(int id, string name, string sSNorEIN, string email, string password, decimal balance, UserType userType)
+        public WalletEntity(string name, string sSNorEIN, string email, string password, decimal balance, UserType userType)
         {
-            Id = id;
             Name = name;
             SSNorEIN = sSNorEIN;
             Email = email;
