@@ -1,9 +1,15 @@
+using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
 using SinglePaymentAPI.Data;
 using SinglePaymentAPI.Data.Repository.Transfers;
 using SinglePaymentAPI.Data.Repository.Wallets;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// .env and configuration
+Env.Load();
+var dbConnection = Env.GetString("DB_CONNECTION");
+builder.Configuration["ConnectionStrings:defaultConnection"] = dbConnection;
 
 // Add services to the container.
 
@@ -32,5 +38,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+Console.WriteLine($"Minha Connection String: {builder.Configuration["ConnectionStrings:defaultConnection"]}");
 
 app.Run();
