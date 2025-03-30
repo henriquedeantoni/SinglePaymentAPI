@@ -15,7 +15,6 @@
             SenderId = senderId;
             ReceiverId = receiverId;
             Value = value;
-
         }
     }
 }
