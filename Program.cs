@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SinglePaymentAPI.Data;
+using SinglePaymentAPI.Data.Repository.Transfers;
+using SinglePaymentAPI.Data.Repository.Wallets;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
+var serverVersion = new MySqlServerVersion(new Version(8, 0, 41));
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(builder.Configuration.GetConnectionString("defaultConnection"), serverVersion));
-   
+
+builder.Services.AddScoped<IWalletRepository, WalletRepository>();
+builder.Services.AddScoped<ITransferRepository, TransferRepository>();
 
 var app = builder.Build();
 
