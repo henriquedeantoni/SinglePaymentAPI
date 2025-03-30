@@ -1,7 +1,7 @@
 ﻿namespace SinglePaymentAPI.Services.Wallets
 {
-    public class WalletServices
+    public class WalletServices 
     {
-
+        
     }
 }
