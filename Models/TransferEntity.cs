@@ -9,6 +9,7 @@
         public int ReceiverId { get; set; }
         public WalletEntity Receiver { get; set; }
         public decimal Value { get; set; }
+        private TransferEntity() { }
 
         public TransferEntity(int senderId, int receiverId, decimal value)
         {
@@ -16,5 +17,6 @@
             ReceiverId = receiverId;
             Value = value;
         }
+
     }
 }
