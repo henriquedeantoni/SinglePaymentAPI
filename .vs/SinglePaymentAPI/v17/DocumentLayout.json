@@ -66,11 +66,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -184,7 +188,7 @@
               "RelativeDocumentMoniker": "Models\\WalletEntity.cs",
               "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\WalletEntity.cs",
               "RelativeToolTip": "Models\\WalletEntity.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T02:15:27.044Z",
               "EditorCaption": ""
