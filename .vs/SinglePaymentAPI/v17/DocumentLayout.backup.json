@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\services\\wallets\\iwalletservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:services\\wallets\\iwalletservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\services\\wallets\\walletservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:services\\wallets\\walletservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\singlepaymentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:singlepaymentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Migrations\\20250330141821_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250330141821_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\singlepaymentapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:singlepaymentapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\singlepaymentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|solutionrelative:singlepaymentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D240E63-A587-4601-960F-9EE1928DB95D}|SinglePaymentAPI.csproj|c:\\users\\henrique\\documents\\cursonet\\singlepaymentapi\\singlepaymentapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,15 +82,71 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IWalletServices.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Services\\Wallets\\IWalletServices.cs",
+              "RelativeDocumentMoniker": "Services\\Wallets\\IWalletServices.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Services\\Wallets\\IWalletServices.cs",
+              "RelativeToolTip": "Services\\Wallets\\IWalletServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T14:28:51.364Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WalletServices.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Services\\Wallets\\WalletServices.cs",
+              "RelativeDocumentMoniker": "Services\\Wallets\\WalletServices.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Services\\Wallets\\WalletServices.cs",
+              "RelativeToolTip": "Services\\Wallets\\WalletServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T14:26:16.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-30T14:24:06.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250330141821_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Migrations\\20250330141821_FirstMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250330141821_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Migrations\\20250330141821_FirstMigration.cs",
+              "RelativeToolTip": "Migrations\\20250330141821_FirstMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T14:18:23.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -87,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -100,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IWalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Data\\Repository\\Wallets\\IWalletRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\Wallets\\IWalletRepository.cs",
@@ -113,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SinglePaymentAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\SinglePaymentAPI.csproj",
               "RelativeDocumentMoniker": "SinglePaymentAPI.csproj",
@@ -126,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -139,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "WalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Data\\Repository\\Wallets\\WalletRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\Wallets\\WalletRepository.cs",
@@ -152,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -165,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TransferEntity.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\TransferEntity.cs",
               "RelativeDocumentMoniker": "Models\\TransferEntity.cs",
@@ -178,20 +250,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "WalletEntity.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\WalletEntity.cs",
               "RelativeDocumentMoniker": "Models\\WalletEntity.cs",
               "ToolTip": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\WalletEntity.cs",
               "RelativeToolTip": "Models\\WalletEntity.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T02:15:27.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "TransferRepository.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Data\\Repository\\Transfers\\TransferRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\Transfers\\TransferRepository.cs",
@@ -204,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "SinglePaymentAPI",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\SinglePaymentAPI.csproj",
               "RelativeDocumentMoniker": "SinglePaymentAPI.csproj",
@@ -216,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ITransferRepository.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Data\\Repository\\Transfers\\ITransferRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\Transfers\\ITransferRepository.cs",
@@ -229,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "UserType.cs",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\Models\\Enum\\UserType.cs",
               "RelativeDocumentMoniker": "Models\\Enum\\UserType.cs",
@@ -242,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": ".gitattributes",
               "DocumentMoniker": "C:\\Users\\Henrique\\Documents\\CursoNET\\SinglePaymentAPI\\SinglePaymentAPI\\.gitattributes",
               "RelativeDocumentMoniker": ".gitattributes",
