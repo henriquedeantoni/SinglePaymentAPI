@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SinglePaymentAPI.Data;
 using SinglePaymentAPI.Data.Repository.Transfers;
 using SinglePaymentAPI.Data.Repository.Wallets;
+using SinglePaymentAPI.Services.Wallets;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<IWalletRepository, WalletRepository>();
 builder.Services.AddScoped<ITransferRepository, TransferRepository>();
+builder.Services.AddScoped<IWalletServices, WalletServices>();
 
 var app = builder.Build();
 
