@@ -1,9 +1,10 @@
 ﻿using SinglePaymentAPI.Models.DTOs;
 using SinglePaymentAPI.Models.Requests;
+using SinglePaymentAPI.Models.Responses;
 
 namespace SinglePaymentAPI.Services.Transfers;
 
 public interface ITransferServices
 {
-    Task<Results<TransferDTO>> ExecuteAsync(TransferRequest request);
+    Task<Result<TransferDTO>> ExecuteAsync(TransferRequest request);
 }
