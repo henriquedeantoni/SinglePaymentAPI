@@ -5,7 +5,7 @@ namespace SinglePaymentAPI.Utils;
 public static class SSNEINValidator
 {
     private static readonly Regex ssnRegex = new(@"^\d{9}$");
-    private static readonly Regex einRegex = new(@"^\d{9}$"); // Apenas números
+    private static readonly Regex einRegex = new(@"^\d{9}$");
 
     public static bool IsSsn(string ssn)
     {
