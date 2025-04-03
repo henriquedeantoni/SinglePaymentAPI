@@ -1,8 +1,11 @@
 using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using SinglePaymentAPI.Data;
 using SinglePaymentAPI.Data.Repository.Transfers;
 using SinglePaymentAPI.Data.Repository.Wallets;
+using SinglePaymentAPI.Services.Authorizer;
+using SinglePaymentAPI.Services.Notifications;
 using SinglePaymentAPI.Services.Wallets;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,6 +30,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IWalletRepository, WalletRepository>();
 builder.Services.AddScoped<ITransferRepository, TransferRepository>();
 builder.Services.AddScoped<IWalletServices, WalletServices>();
+
+builder.Services.AddHttpClient<IAuthorizerServices, AuthorizerServices>();
+builder.Services.AddScoped<INotificationServices, NotificationServices>();
 
 var app = builder.Build();
 
