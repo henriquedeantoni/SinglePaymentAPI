@@ -1,5 +1,6 @@
 ﻿using SinglePaymentAPI.Data.Repository.Transfers;
 using SinglePaymentAPI.Data.Repository.Wallets;
+using SinglePaymentAPI.Mappers;
 using SinglePaymentAPI.Models;
 using SinglePaymentAPI.Models.DTOs;
 using SinglePaymentAPI.Models.Enum;
