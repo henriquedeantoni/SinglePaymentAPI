@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SinglePaymentAPI.Models.Requests;
 using SinglePaymentAPI.Services.Transfers;
 using System.Transactions;
 
@@ -16,7 +17,7 @@ public class TransferController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> PostUser(TransactionRequest request)
+    public async Task<IActionResult> PostTransfer(TransferRequest request)
     {
         var result = await _transferServices.ExecuteAsync(request);
         if(!result.IsSuccess)
