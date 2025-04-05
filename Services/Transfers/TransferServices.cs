@@ -32,7 +32,7 @@ public class TransferServices : ITransferServices
             return Result<TransferDTO>.Failure("not auhtorized");
 
         var payer = await _walletRepository.GetById(request.SenderId);
-        var beneficiary = await _walletRepository.GetById(request.SenderId);
+        var beneficiary = await _walletRepository.GetById(request.ReceiverId);
 
         if(payer is null || beneficiary is null)
             return Result<TransferDTO>.Failure("Any wallet has found.");
